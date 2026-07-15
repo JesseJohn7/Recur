@@ -1,6 +1,6 @@
 import { redirect } from 'next/navigation'
 import { createClient } from '@/lib/supabase/server'
-import { mockSubscriptions } from '@/lib/mockData'
+import { mockSubscriptions } from '@/lib/mockdata'
 import DripLine from '@/components/DripLine'
 import SubscriptionCard from '@/components/SubscriptionCard'
 
