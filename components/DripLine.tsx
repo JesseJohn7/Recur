@@ -1,6 +1,6 @@
 'use client'
 
-import { Subscription } from '@/lib/mockData'
+import { Subscription } from '@/lib/mockdata'
 
 export default function DripLine({ subscriptions }: { subscriptions: Subscription[] }) {
   const today = new Date('2026-07-14')
